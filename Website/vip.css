@@ -1,0 +1,90 @@
+/*container holding the image and the text*/
+.container	
+{
+	position: relative;
+	text-align: center;
+	color: darkseagreen;
+	overflow: hidden;
+}
+.centered
+{
+	position: absolute;
+	top: 20%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+body
+{
+	background-color: black;
+	color: white;
+	text-align: center;
+	font-size: 15pt;
+	overflow-x: hidden;
+}
+h1
+{
+	margin-top: 10px;
+	font: sans-serif;
+	text-align: left;
+	font-weight: bold;
+
+}
+h2{	
+	margin-top: 40px;
+	margin-bottom: 60px;
+	font-size: 40pt;
+	text-align: center;
+	font-family: sans-serif;
+	font-weight: bold;
+	color: azure;
+}
+h3
+{
+	font-size: 30pt;
+	color: orangered;
+	margin-bottom: 15px;
+
+}
+h4
+{
+	font-size: 18pt;
+	margin-top: 20px;
+	text-align: left;
+}
+p
+{
+	vertical-align: middle;
+	align-content: center;
+	margin-bottom: 5px;
+}
+a
+{
+	color: pink; 
+}
+a:hover
+{
+	color: magenta;
+}
+table.center
+{
+	margin-left: auto;
+	margin-right: auto;
+}
+td
+{	
+	border: solid 1px white;
+	width: 200px;
+	color: deeppink;
+}
+th
+{	
+	border: solid 1px white;
+	width: 200px;
+	text-align: center;
+	color: aqua;
+}
+.col1
+{
+	text-align: left;
+	padding-left: 15px;
+}
